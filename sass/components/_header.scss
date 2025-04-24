@@ -1,0 +1,21 @@
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav li {
+    cursor: pointer;
+    color: #888;
+}
+
+nav li.active {
+    color: #00aaff;
+    font-weight: bold;
+}
