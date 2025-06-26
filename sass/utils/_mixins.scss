@@ -1,0 +1,7 @@
+@mixin text($font){
+    font-family: inherit;
+    font-size: $font;
+}
+@mixin trans($transform){
+    text-transform: $transform;
+}

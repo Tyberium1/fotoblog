@@ -1,6 +1,8 @@
+@import "../utils/mixins";
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
